@@ -1,7 +1,5 @@
 # End-to-End-LA-Crime-Analytics_Group4
 
-# LA Crime Analytics - End-to-End Data Warehouse Project
-
 
 ## Project Overview
 
