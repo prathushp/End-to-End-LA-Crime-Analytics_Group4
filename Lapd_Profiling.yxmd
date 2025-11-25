@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\prath\Downloads\LAPDA_Dataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LAPDA_Dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Date Rptd" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="DATE OCC" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="TIME OCC" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="AREA NAME" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Rpt Dist No" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Part 1-2" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Crm Cd" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Crm Cd Desc" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Mocodes" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Vict Age" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Vict Sex" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Vict Descent" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Premis Cd" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Premis Desc" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Weapon Used Cd" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Weapon Desc" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Status Desc" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Crm Cd 1" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Crm Cd 2" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Crm Cd 3" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Crm Cd 4" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="Cross Street" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="LAT" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+            <Field name="LON" size="254" source="File: C:\Users\prath\Downloads\LAPDA_Dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_7854f6a166ea4e158da82742f6ba5577~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="246" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="DR_NO" />
+            <Field field="Date Rptd" />
+            <Field field="DATE OCC" />
+            <Field field="TIME OCC" />
+            <Field field="AREA" />
+            <Field field="AREA NAME" />
+            <Field field="Rpt Dist No" />
+            <Field field="Part 1-2" />
+            <Field field="Crm Cd" />
+            <Field field="Crm Cd Desc" />
+            <Field field="Mocodes" />
+            <Field field="Vict Age" />
+            <Field field="Vict Sex" />
+            <Field field="Vict Descent" />
+            <Field field="Premis Cd" />
+            <Field field="Premis Desc" />
+            <Field field="Weapon Used Cd" />
+            <Field field="Weapon Desc" />
+            <Field field="Status" />
+            <Field field="Status Desc" />
+            <Field field="Crm Cd 1" />
+            <Field field="Crm Cd 2" />
+            <Field field="Crm Cd 3" />
+            <Field field="Crm Cd 4" />
+            <Field field="LOCATION" />
+            <Field field="Cross Street" />
+            <Field field="LAT" />
+            <Field field="LON" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_7b918fc09d154714aff146f8349abad9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_bee8604a289a4dca81f3fd31129a6d5d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="282" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_2359c306ac074b868340d7a4ba5ea107~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="198" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">DR_NO=True,Date Rptd=True,DATE OCC=True,TIME OCC=True,AREA=True,AREA NAME=True,Rpt Dist No=True,Part 1-2=True,Crm Cd=True,Crm Cd Desc=True,Mocodes=True,Vict Age=True,Vict Sex=True,Vict Descent=True,Premis Cd=True,Premis Desc=True,Weapon Used Cd=True,Weapon Desc=True,Status=True,Status Desc=True,Crm Cd 1=True,Crm Cd 2=True,Crm Cd 3=True,Crm Cd 4=True,LOCATION=True,Cross Street=True,LAT=True,LON=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_7c4e2ba3b44f42eb9ff493c1eacab370~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_d9bdfcfc19d34eb28bd78e43b79a474a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_00412d91e89a435186365cae1f261e0f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="198" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date Rptd</InputFieldName>
+          <Language>English</Language>
+          <Format>%Y %b %d %I:%M:%S %p</Format>
+          <OutputFieldName>Date_Rptd</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date Rptd From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="306" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>DATE OCC</InputFieldName>
+          <Language>English</Language>
+          <Format>%Y %b %d %I:%M:%S %p</Format>
+          <OutputFieldName>DATE_OCC</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert DATE OCC From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_8e5a5729cbf24cd9b5571f3b73a114d8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse(Left([TIME OCC],2) + &quot;:&quot; + Right([TIME OCC],2) + &quot;:00&quot;, &quot;%H:%M:%S&quot;)" field="TIME OCC" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TIME OCC = DateTimeParse(Left([TIME OCC],2) + ":" + Right([TIME OCC],2) + ":00",...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="582" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>TIME OCC</InputFieldName>
+          <Language>English</Language>
+          <Format>HH:mm:ss</Format>
+          <OutputFieldName>TIME_OCC</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert TIME OCC From:
+HH:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_fde7cb2b4d464c8bb561a29d993869fa~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date_Rptd" selected="True" type="Date" size="10" />
+            <SelectField field="DATE_OCC" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="810" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ToNumber([Vict Age]) &lt; 18 THEN &quot;Juvenile&quot;&#xA;ELSEIF ToNumber([Vict Age]) &lt; 30 THEN &quot;18-29&quot;&#xA;ELSEIF ToNumber([Vict Age]) &lt; 45 THEN &quot;30-44&quot;&#xA;ELSEIF ToNumber([Vict Age]) &lt; 60 THEN &quot;45-59&quot;&#xA;ELSE &quot;60+&quot;&#xA;ENDIF" field="Age_Bucket" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="IF ToNumber(Left([TIME_OCC],2)) &lt; 6 THEN &quot;Night&quot;&#xA;ELSEIF ToNumber(Left([TIME_OCC],2)) &lt; 12 THEN &quot;Morning&quot;&#xA;ELSEIF ToNumber(Left([TIME_OCC],2)) &lt; 18 THEN &quot;Afternoon&quot;&#xA;ELSE &quot;Evening&quot;&#xA;ENDIF&#xA;" field="Time_Bucket" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Age_Bucket = IF ToNumber([Vict Age]) &lt; 18 THEN "Juvenile"
+ELSEIF ToNumber([Vict ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="978" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_1aa0add27e794a5b8c4d109a1ec6979c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="906" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[DATE_OCC] < "2020-01-01"
+OR
+[DATE_OCC] > DateTimeFormat(DateTimeToday(), "%Y-%m-%d")
+OR
+[Date_Rptd] < "2020-01-01"
+OR
+[Date_Rptd] > DateTimeFormat(DateTimeToday(), "%Y-%m-%d")
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[DATE_OCC] &lt; "2020-01-01"
+OR
+[DATE_OCC] &gt; DateTimeFormat(DateTimeToday(), "%Y-%m...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1014" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Date_Rptd] &lt; [DATE_OCC]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Date_Rptd] &lt; [DATE_OCC]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1110" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_35b4d98c00c64b88a88985e2acd3e620~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="738" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeFormat([Date_Rptd], &quot;%Y-%m-%d&quot;)&#xA;&#xA;" field="Date_Rptd" size="10" type="Date" enabled="true" />
+            <FormulaField expression="DateTimeFormat([DATE_OCC], &quot;%Y-%m-%d&quot;)&#xA;" field="DATE_OCC" size="10" type="Date" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date_Rptd = DateTimeFormat([Date_Rptd], "%Y-%m-%d")
+
+
+DATE_OCC = DateTimeFormat(...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1134" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DR_NO" selected="True" rename="File_Number" />
+            <SelectField field="Date_Rptd" selected="True" rename="Date_Reported" />
+            <SelectField field="DATE_OCC" selected="True" rename="Date_Occured" />
+            <SelectField field="TIME_OCC" selected="True" rename="Time_Occured" />
+            <SelectField field="Age_Bucket" selected="True" rename="Victim_Age_Category" type="V_String" size="2147483647" />
+            <SelectField field="Time_Bucket" selected="True" rename="Period_of_Day" />
+            <SelectField field="AREA" selected="True" rename="Area" type="Int64" size="8" />
+            <SelectField field="AREA NAME" selected="True" rename="Area_Name" />
+            <SelectField field="Rpt Dist No" selected="True" rename="Reported_District_No" type="Int64" size="8" />
+            <SelectField field="Part 1-2" selected="True" rename="Part_1_2" type="Int64" size="8" />
+            <SelectField field="Crm Cd" selected="True" rename="Crime_Code" type="Int64" size="8" />
+            <SelectField field="Crm Cd Desc" selected="True" rename="Crime_Code_Desc" />
+            <SelectField field="Vict Age" selected="True" rename="Victim_Age" type="Int64" size="8" />
+            <SelectField field="Vict Sex" selected="True" rename="Victim_Sex" />
+            <SelectField field="Vict Descent" selected="True" rename="Victim_Descent" />
+            <SelectField field="Premis Cd" selected="True" rename="Premis_Code" type="Int64" size="8" />
+            <SelectField field="Premis Desc" selected="True" rename="Premis_Description" />
+            <SelectField field="Weapon Used Cd" selected="True" rename="Weapon_Used_Code" type="Int64" size="8" />
+            <SelectField field="Weapon Desc" selected="True" rename="Weapon_Desc" />
+            <SelectField field="Status" selected="True" rename="Arrest_Status" />
+            <SelectField field="Status Desc" selected="True" rename="Arrest_Status_Desc" />
+            <SelectField field="LOCATION" selected="True" rename="Location" />
+            <SelectField field="Cross Street" selected="True" rename="Cross_Street" />
+            <SelectField field="LAT" selected="True" rename="Latitude" type="Double" size="8" />
+            <SelectField field="LON" selected="True" rename="Longitude" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+            <SelectField field="Date Rptd" selected="False" />
+            <SelectField field="DATE OCC" selected="False" />
+            <SelectField field="TIME OCC" selected="False" />
+            <SelectField field="Mocodes" selected="False" />
+            <SelectField field="Crm Cd 2" selected="False" />
+            <SelectField field="Crm Cd 3" selected="False" />
+            <SelectField field="Crm Cd 4" selected="False" />
+            <SelectField field="Crm Cd 1" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1218" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_25580_a75a460b50a440ed963fbbc1451aeeb5_\Engine_25580_66fbd088e9ce47339e8b47d799a12865~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1254" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\prath\Downloads\lapd_cleaned_csv.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>lapd_cleaned_csv.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Unique" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Duplicates" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Interactive" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Reports" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="False" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="False" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="False" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>lapd profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6add1e1d-68be-4a4e-b420-1d139043c7dd" />
+      <Telemetry>
+        <PreviousWorkflowId value="c734c536-e32e-4c64-ac4c-39f41a2299bb" />
+        <OriginWorkflowId value="8e41523f-7091-497b-8254-49938f463e0f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
