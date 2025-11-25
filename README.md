@@ -7,7 +7,7 @@ End-to-end analytics solution analyzing 1 million+ LA crime incidents from 2020-
 
 ## Architecture
 
-Raw CSV → Bronze (Databricks) → Silver (Databricks) → Gold Star Schema (Databricks) → PowerBI/Tableau Dashboards
+Raw CSV → Bronze (Databricks) → Silver (Databricks) → Gold Star Schema (Snowflake) → PowerBI/Tableau Dashboards
 
 ## Technologies
 
